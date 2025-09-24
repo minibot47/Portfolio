@@ -176,6 +176,20 @@ export default function Home() {
             <h2>A Full website dedicated to helping health attendants, Doctors and Nurses keep records of students health issues, results and medication.</h2>
           </div>
         </a>
+        <a
+          href="https://final-year-project-navy-three.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="h-[600px] bg-white text-black rounded-xl transition duration-300 transform hover:scale-105 hover:shadow-2xl cursor-pointer flex flex-col"
+        >
+          <div className="h-[80%] w-full flex items-center justify-center overflow-hidden rounded-xl">
+            <img src="/image/AnimalHealth.png" alt="img5" className="w-[95%] h-[85%] rounded object-cover transition duration-300 transform hover:scale-110 cursor-pointer" />
+          </div>
+          <div className="pl-5 pr-5 flex flex-col gap-2">
+            <h3 className="text-xl font-bold">Livestock Health Management System</h3>
+            <h2>A Full website dedicated to helping Farmers manage animal health based on temperature, It gives real time information on any animal at a given time(Simulation)</h2>
+          </div>
+        </a>
       </div>
       {/* PHILOSOPHY */}
       <div className=" w-full h-fit flex p-5 flex-col md:flex-row  ">
